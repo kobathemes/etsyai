@@ -1,0 +1,19 @@
+# Allow Google's AI tools (including Gemini) to access the site
+User-agent: Google-Extended
+Allow: /
+
+# Allow OpenAI's tools (including ChatGPT) to access the site
+User-agent: GPTBot
+Allow: /
+
+# Allow Anthropic's tools (Claude) to access the site
+User-agent: ClaudeBot
+Allow: /
+
+# Allow Perplexity's crawler to access the site
+User-agent: PerplexityBot
+Allow: /
+
+# Standard rule to allow all other mainstream search engines (Google, Bing, etc.)
+User-agent: *
+Allow: /
