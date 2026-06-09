@@ -20,3 +20,6 @@ Allow: /
 
 # Explicit Agent Discovery Reference
 Sitemap: https://etsyai.kotrynabass.com/sitemap.xml
+
+# Declare AI content usage preferences
+Content-Signal: ai-train=no, search=yes, ai-input=no
