@@ -1,0 +1,31 @@
+{
+  "ucp_version": "2026-01",
+  "organization": {
+    "name": "Kotryna Bass Design",
+    "url": "https://etsyai.kotrynabass.com/",
+    "logo": "https://etsyai.kotrynabass.com/logo.png",
+    "description": "Educational training and frameworks for scaling digital products with artificial intelligence."
+  },
+  "primary_capability": "service",
+  "capabilities": [
+    {
+      "id": "etsy-ai-training-catalog",
+      "type": "service",
+      "name": "Etsy AI Training & Resources",
+      "description": "Static educational landing page and digital resource catalog.",
+      "canonical_url": "https://etsyai.kotrynabass.com/",
+      "checkout_protocol": "NONE"
+    }
+  ],
+  "transports": {
+    "rest": {
+      "enabled": false,
+      "endpoints": {}
+    },
+    "mcp": {
+      "enabled": false,
+      "schema": "https://ucp.dev/services/shopping/mcp.openrpc.json",
+      "endpoint": ""
+    }
+  }
+}
