@@ -17,3 +17,6 @@ Allow: /
 # Standard rule to allow all other mainstream search engines (Google, Bing, etc.)
 User-agent: *
 Allow: /
+
+# Explicit Agent Discovery Reference
+Sitemap: https://etsyai.kotrynabass.com/sitemap.xml
